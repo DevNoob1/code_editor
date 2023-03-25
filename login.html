@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="login.html">
+    <title>Document</title>
+    <style>
+        #LOGINLOGO {
+            /* box-shadow: 0px 0px 10px white; */
+        }
+
+        hr {
+            text-shadow: 0px 0px 10px white;
+
+        }
+
+        #LOGO:hover {
+            animation: ease-in-out infinite;
+        }
+
+
+        #MAINBOX {
+            box-shadow: 10px 10px 10px rgb(150, 114, 246);
+
+        }
+
+        #MYBACK {
+            animation: serene 1s infinite;
+            background-image: url(https://wallpapercave.com/wp/wp2729921.gif);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        /* @keyframes serene {
+            from {
+                background: purple;
+            }
+
+            50% {
+                background: rgb(225, 65, 225);
+
+            }
+
+            to {
+                background: transparent;
+            } */
+    </style>
+</head>
+
+<body>
+    <div id="MYBACK" class="  h-[100vh] flex items-center justify-center">
+        <div id="MAINBOX"
+            class="border-2 rounded-[10%] bg-gradient-to-b  from-gray-700  to-purple-800 h-[60vh] w-[50vh] ">
+            <div id="LOGO" class="heading h-[9vh] text-2xl text-purple-300   font-extrabold text-center ">
+                CODE_CALLS.ed
+            </div>
+
+            <div id="login" class="text-purple-200 h-[23vh] mx-[5%]">
+                <p class="h-[5vh] font-[apple-system] font-extrabold text-lg">hey there, welcome back</p>
+                <p class="h-[4vh] font-sans font-bold text-base">Login</p>
+                <input type="text" class="w-[100%] h-[4vh] rounded-3xl px-[4%] text-black border-black border-2"
+                    placeholder="abc@gmail.com">
+                <p class="h-[4vh] font-sans font-bold text-base">Password</p>
+                <input type="text" class="w-[100%] h-[4vh] rounded-3xl   px-[4%] text-black border-black border-2"
+                    placeholder="[deleted]">
+            </div>
+            <hr>
+            <h2 class="text-white text-center">OR</h2>
+            <hr>
+            <div id="signup" class="text-[#dc98fa] h-[20vh] mx-[5%]">
+                <p class="text-center h-[10vh] font-[apple-system] font-extrabold text-3xl">new here, then <br>sign
+                    up with :</p>
+                <div id="LOGINLOGO" class="h-[10vh] flex items-center shadow-2xl justify-center gap-[50px]">
+                    <a href="" class=" "><img class="h-[5vh] w-[5vh] "
+                            src=" https://cdn-icons-png.flaticon.com/512/104/104093.png" alt=""></a>
+                    <a href="" class=" "><img class="h-[5vh] w-[5vh] "
+                            src=" https://cdn-icons-png.flaticon.com/512/25/25657.png" alt=""></a>
+
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
